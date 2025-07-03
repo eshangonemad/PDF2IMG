@@ -1,12 +1,22 @@
-# PDF2IMG
-Convert any of your beloved PDF files to get the BEST quality image 
+![Pdf2IMG image](https://github.com/eshangonemad/PDF2IMG/blob/main/pdf2img.png?raw=trueassets/20250703_085726_pdf2img.pn)
 
+A simple tool that converts the pages of any pdf into high definition images: Useful for creating image previews, image databases, or training Artificial Intelligence models.
 
-## How to use it?
-Well, it's not that deep(difficult or hard to understand). 
-- Just clone the repository onto a local machine
-- run the app.py file that is included in the repo
-- open the webpage
-- upload any pdf file from your computer
-- let the server do the magik(synthesis)
-output in the home folder
+## Installation
+
+Install the dependencies that are required by PDF2IMG
+
+`pip install Werkzeug Flask PyMuPDF`
+
+## How to use PDF 2 IMG
+
+1. Clone the github repo
+2. Run the app.py file
+3. Open the development server
+4. Upload PDF files (The app is compatible with multiple PDFs)
+
+* You can adjust the DPI by altering the following line
+* `zoom = 6.0`
+* Change the value of 6.0 to anything that you prefer
+
+5. The program will output the image files in a folder called "Home"
