@@ -1,8 +1,8 @@
-import os#thjgh
-import fitz  # jgu
+import os
+import fitz  
 from flask import Flask, render_template, request, jsonify
 from werkzeug.utils import secure_filename
-#thhj
+
 app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads'
 EXTRACT_FOLDER = 'home'
