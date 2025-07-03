@@ -3,14 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upload PDFs</title>
+    <title>PDF2IMG</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+    </style>
+    <style>
+        #pdfbox{
+            padding:10px;
+            align-items: center;
+            font-family: nunito sans;
+        }
+        h1{
+           font-size: 50px; 
+        }
+    </style>
 </head>
 <body>
-    <h1>Upload PDF Files</h1>
-    <form action="/upload" method="POST" enctype="multipart/form-data">
-        <input type="file" name="pdf_files" accept=".pdf" multiple>
-        <input type="submit" value="Upload PDFs">
-    </form>
+    <center>
+    <div id="pdfbox">
+        <h1>PDF2IMG</h1>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <input type="file" name="pdf_files" accept=".pdf" multiple>
+            <input type="submit" value="Upload PDFs">
+        </form>
+    </div>
+    </center>
 </body>
 </html>
    
